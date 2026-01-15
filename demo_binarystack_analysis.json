@@ -1,0 +1,24 @@
+{
+    "binary": "demo_binary",
+    "architecture": "amd64",
+    "bits": 64,
+    "protections": {
+        "PIE": false,
+        "NX": null,
+        "Canary": false,
+        "RELRO": "Partial"
+    },
+    "stack": {
+        "offset": 72,
+        "puts_plt": "0x401054",
+        "puts_got": "0x404000",
+        "main": "0x401185",
+        "win_functions": null
+    },
+    "libc": {
+        "path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "system": "0x58750",
+        "exit": "0x47ba0",
+        "bin_sh": "0x1cb42f"
+    }
+}
