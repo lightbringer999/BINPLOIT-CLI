@@ -3,3 +3,5 @@ binploit-cli is a Linux-based binary analysis and exploitation assistant for edu
 <p align="center">
   <img src="binploit-cli.png" alt="binploit-cli banner" width="700">
 </p>
+
+Usage: python3 binploit-cli.py <binary>
